@@ -1,5 +1,9 @@
 # Customer Sales Analysis Dashboard
 
+**🔗 GitHub Repository**: [https://github.com/drashti-2005/Customer-Sales-Analysis-Dashboard](https://github.com/drashti-2005/Customer-Sales-Analysis-Dashboard)
+
+---
+
 ## 📊 Project Overview
 
 A comprehensive data analytics portfolio project that demonstrates end-to-end data analysis skills including **Exploratory Data Analysis (EDA)**, **SQL queries**, and **interactive visualizations**. This project analyzes customer sales data to uncover business insights and provide actionable recommendations.
@@ -372,8 +376,12 @@ Potential extensions:
 
 ## 👤 Author
 
-**Data Analyst**  
-Portfolio Project - July 2026
+**Drashti Patel**  
+Data Analyst | Portfolio Project  
+July 2026
+
+**GitHub**: [@drashti-2005](https://github.com/drashti-2005)  
+**Project Repository**: [Customer-Sales-Analysis-Dashboard](https://github.com/drashti-2005/Customer-Sales-Analysis-Dashboard)
 
 ---
 
@@ -394,9 +402,8 @@ This project is created for educational and portfolio purposes.
 ## 📞 Contact
 
 For questions or collaboration opportunities, please reach out via:
-- GitHub: [Your GitHub Profile]
-- LinkedIn: [Your LinkedIn Profile]
-- Email: [Your Email]
+- **GitHub**: [@drashti-2005](https://github.com/drashti-2005)
+- **Project Repository**: [Customer-Sales-Analysis-Dashboard](https://github.com/drashti-2005/Customer-Sales-Analysis-Dashboard)
 
 ---
 
