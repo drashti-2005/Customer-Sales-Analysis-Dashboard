@@ -1,0 +1,133 @@
+================================================================================
+CUSTOMER SALES ANALYSIS - EDA SUMMARY REPORT
+================================================================================
+Generated on: 2026-07-01 12:07:58
+Dataset: D:\internship-project\data-analytics-internship\Customer_Sales_Analysis\data\cleaned_sales_data.csv
+================================================================================
+
+
+================================================================================
+1. DATASET OVERVIEW
+================================================================================
+Total Rows: 100
+Total Columns: 9
+Columns: Order_ID, Date, Customer, Product, Category, Quantity, Price, Sales, Region
+
+Data Types:
+  - Order_ID: int64
+  - Date: object
+  - Customer: object
+  - Product: object
+  - Category: object
+  - Quantity: float64
+  - Price: float64
+  - Sales: float64
+  - Region: object
+
+Missing Values:
+  - Customer: 2 (2.00%)
+  - Quantity: 1 (1.00%)
+  - Price: 1 (1.00%)
+  - Region: 2 (2.00%)
+
+Duplicate Rows: 0
+
+
+================================================================================
+2. DATA QUALITY ASSESSMENT
+================================================================================
+Data Completeness: 99.33%
+Total Cells: 900
+Missing Cells: 6
+
+Quality Assessment: EXCELLENT - Data is highly complete
+
+
+================================================================================
+3. SUMMARY STATISTICS
+================================================================================
+          Order_ID   Quantity        Price        Sales
+count   100.000000  99.000000    99.000000   100.000000
+mean   1050.500000   2.767677   141.989899   177.785000
+std      29.011492   2.546820   232.440457   243.108149
+min    1001.000000   1.000000     2.500000    18.000000
+25%    1025.750000   1.000000    13.000000    45.000000
+50%    1050.500000   2.000000    42.000000    66.000000
+75%    1075.250000   4.000000   160.000000   227.500000
+max    1100.000000  12.000000  1200.000000  1200.000000
+
+
+================================================================================
+4. SQL ANALYSIS
+================================================================================
+Total SQL Queries Executed: 10
+
+Total Sales: $17,778.50
+Total Orders: 100
+Average Order Value: $177.78
+
+Highest Revenue Product: Laptop ($1,200.00)
+Top Region: North ($6,247.00)
+Top Category: Furniture ($10,738.00)
+
+
+================================================================================
+5. CHARTS GENERATED
+================================================================================
+Total Visualizations: 9
+
+Charts Created:
+  1. 01_monthly_sales_trend.png
+  2. 02_sales_by_region.png
+  3. 03_sales_by_category.png
+  4. 04_top_10_customers.png
+  5. 05_top_10_products.png
+  6. 06_correlation_heatmap.png
+  7. 07_sales_histogram.png
+  8. 08_sales_boxplot.png
+  9. 09_category_distribution_pie.png
+
+
+================================================================================
+6. KEY FINDINGS
+================================================================================
+1. Region Analysis: North has the highest sales with $6,247.00
+2. Category Performance: Furniture is the best performer with $10,738.00 (60.4% of total sales)
+3. Top Customer: John Smith contributes the highest revenue of $1,200.00
+4. Peak Sales Period: 2024-02 recorded the highest sales of $6,478.00
+5. Top 3 Products: Laptop, Conference Table, Credenza
+6. Products Needing Promotion: Cable Management, Phone Holder, Scissors show low sales performance
+7. Overall Performance: Total Revenue = $17,778.50, Average Order Value = $177.78
+
+
+================================================================================
+7. BUSINESS RECOMMENDATIONS
+================================================================================
+1. Focus marketing efforts on top-performing regions to maximize ROI
+2. Increase inventory of high-revenue products to meet demand
+3. Implement customer loyalty programs for top customers
+4. Analyze and replicate success factors from best-performing categories
+5. Develop promotional strategies for underperforming products
+6. Optimize pricing strategy based on product performance analysis
+7. Plan inventory and staffing for peak sales periods
+8. Cross-sell products from high-performing to low-performing categories
+9. Investigate and address quality issues in products with low sales
+10. Expand product offerings in successful categories
+
+
+================================================================================
+8. RECOMMENDED NEXT STEPS
+================================================================================
+1. Conduct deeper analysis on customer segmentation
+2. Perform predictive modeling for sales forecasting
+3. Analyze customer churn and retention patterns
+4. Investigate pricing elasticity for key products
+5. Study seasonal patterns in more detail
+6. Develop automated reporting dashboard
+7. Implement real-time sales tracking system
+8. Create customer lifetime value models
+
+
+================================================================================
+END OF REPORT
+================================================================================
